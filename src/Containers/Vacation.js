@@ -1,13 +1,21 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import "./Vacation.css"
 
-function Vacation() {
-  return (
-    <div className="VacationPage">
-      <h1>Vacation Page</h1>
-    </div>
-  );
+class Vacation extends Component {
+  state = {
+  };
+
+  render() {
+    return (
+      <div className="VacationPage">
+        <div className="title">
+          <h1>Vacation Page</h1>
+        </div>
+      </div>
+    );
+  }
+
 }
 
 export default Vacation;

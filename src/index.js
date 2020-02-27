@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './Containers/App';
-import Navbar from './Components/Navbar'
+import Navbar from './Components/Navbar/Navbar'
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';

@@ -1,3 +1,23 @@
 .HomePage{
     border: 1px solid lightcoral;
 }
+
+.title{
+    text-align: center;
+}
+
+#searchInput{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.submitBtn{
+
+    width: 250px;
+}
+
+.mainInputs{
+    margin: 0 auto;
+    padding: 40px;
+    background-color: lightgoldenrodyellow;
+}

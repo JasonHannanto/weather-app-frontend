@@ -1,0 +1,10 @@
+.submitBtn{
+    margin: 0 auto;
+    width: 400px
+}
+
+.bottomInput{
+    background-color: lightgreen;
+    display: inline-block;
+    padding: 20px
+}

@@ -1,13 +1,22 @@
 
-import React from 'react';
+import React, { Component } from 'react';
 import "./Home.css"
+import HomeSearchWeather from '../Components/HomeSearchWeather/HomeSearchWeather'
 
-function Home() {
-  return (
-    <div className="HomePage">
-      <h1>Home Page</h1>
-    </div>
-  );
+class Home extends Component {
+  state = {
+  };
+
+  render() {
+    return (
+      <div className="HomePage" >
+        <div className="title">
+          <h1>Home Page</h1>
+        </div>
+        <HomeSearchWeather></HomeSearchWeather>
+      </div >
+    );
+  }
 }
 
 export default Home;
