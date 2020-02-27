@@ -1,0 +1,13 @@
+.navbar{
+    background-color: transparent;
+    border: 2px lightgreen solid;
+}
+
+.buttonGroup{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+Button{
+    width: 30px
+}

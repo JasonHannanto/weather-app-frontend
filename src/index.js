@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './Containers/App';
+import Navbar from './Components/Navbar'
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 
-function App() {
+function Index() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World
-        </p>
-      </header>
+    <div className="mainpage">
+      <App className="top"></App>
+      <Navbar className="navbar"></Navbar>
     </div>
   );
 }
-export default App;
+export default Index;
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Index />, document.getElementById('root'));
 serviceWorker.unregister();
